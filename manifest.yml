@@ -1,0 +1,21 @@
+lzc-sdk-version: "0.1"
+name: Pic Smaller
+package: cloud.lazycat.app.pic-smaller
+version: 0.0.1
+description: compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
+homepage: https://github.com/joye61/pic-smaller
+author: joye61
+application:
+  subdomain: pic-smaller
+  background_task: true
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  public_path:
+    - /
+  routes:
+    - /=http://pic-smaller:3001/
+services:
+  pic-smaller:
+    image: docker.1ms.run/gaoyaxuan/picsmaller:latest
