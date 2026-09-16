@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.pic-smaller
+version: 0.0.1
+name: Pic Smaller
+description: "compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently"
+min_os_version: "1.5.0"
+homepage: https://github.com/joye61/pic-smaller
+author: joye61
+locales:
+  zh:
+    description: "智能压缩 JPEG、PNG、WEBP、AVIF、SVG 和 GIF 图片"
+    name: Pic Smaller
+  en:
+    description: "compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently"
+    name: Pic Smaller

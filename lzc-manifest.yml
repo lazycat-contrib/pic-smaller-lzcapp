@@ -1,0 +1,12 @@
+application:
+  subdomain: pic-smaller
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://pic-smaller:3001/
+services:
+  pic-smaller:
+    # upstream: gaoyaxuan/picsmaller:latest
+    image: docker.1ms.run/gaoyaxuan/picsmaller:latest@sha256:fe0a3fa097da36fa4cd110d762a0003c4dc9331b0effd47837cd559871313e96
