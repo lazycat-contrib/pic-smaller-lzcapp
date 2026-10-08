@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.pic-smaller
+license: MIT
 version: 0.0.1
 name: Pic Smaller
 description: "compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently"
